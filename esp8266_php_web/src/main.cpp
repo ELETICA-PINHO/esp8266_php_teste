@@ -31,13 +31,7 @@ int LED = 0;   //13;                          //Connect LED on this pin (add 150
 
 void ICACHE_RAM_ATTR pinTroca(){
  delayMicroseconds(100);
-  //for(int i =0; i < 3000; ++i) 
   toggle_pressed = true; 
- // qtd_eventos ++;
-//if(qtd_eventos >= 10)   qtd_eventos = 10;
-
-  
-
 
 }
 
