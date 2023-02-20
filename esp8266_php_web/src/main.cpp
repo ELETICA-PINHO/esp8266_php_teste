@@ -9,8 +9,6 @@ const char* ssid = "IOT";              //Add your WIFI network name
 const char* password =  "iot12345";           //Add WIFI password
 String  SERVER_IP = "http://192.140.10.139:1212/esp32/teste5.php";
 
-//http://192.140.10.139:1212
-
 
 
 
@@ -39,14 +37,6 @@ void ICACHE_RAM_ATTR pinTroca(){
 //if(qtd_eventos >= 10)   qtd_eventos = 10;
 
   
-
- // digitalWrite(LED, !digitalRead(LED));
-  //Serial.println("iterrupcao");
-
-
-
-  
-      
 
 
 }
