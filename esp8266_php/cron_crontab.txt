@@ -1,0 +1,25 @@
+veridicar crontab existente
+
+
+crontab -l 
+
+abre arquivo para criar crontab 
+
+crontab -e 
+
+
+                    padaro
+
+ minuto   horas  dias mês    mês     dias semana       comando 
+|  0-59 | 0-23 |  1-31    |  1-12 |        0-7     |
+|       |      |          |       |                |
+|   *   |  *   |   *      |   *   |        *       |
+
+
+
+
+
+ minuto   horas  dias mês    mês     dias semana       comando 
+|       |      |          |       |                |
+|       |      |          |       |                |
+|       |      |          |       |                |
